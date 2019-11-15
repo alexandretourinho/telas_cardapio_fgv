@@ -1,0 +1,20 @@
+ion-tab-bar, ion-tab-button {
+    height: 35px;
+    background-color: #094CB7;
+}
+
+ion-icon {
+    color: white;
+    height: 25px;
+    width: 25px;
+}   
+
+#return_left_button {
+    position: absolute;
+    left: calc(50% + 30px);
+}
+
+#close_button {
+    position: absolute;
+    right: calc(50% + 30px);
+}

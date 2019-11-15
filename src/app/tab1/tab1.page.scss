@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+div#header {
+  width: 100%;
+  height: 80px;
+  background: #094CB7;
+}
+
+div#options {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+div#logo  {
+  position: absolute;
+  left: 50px;
+  top: 6px;
+  width: 114px;
+  height: 35px;
+}
+
+div#titulo {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+
+p.cabecalho {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+
+.button {
+  background-color: #094CB7;
+}
+
+div#section {
+  width: 100%;
+  height: 100%;
+  background-color: #EEEEEE;
+}
+
+
+div#selecione {
+  position: relative;
+  top: 40px;
+  width: 100%;
+}
+
+p#selecione_o_local {
+  font-size: 22px;
+  color: rgb(63, 63, 63);
+  text-align: center;
+}
+
+div.cidade {
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+
+div.botao_cidade {
+  height: 60px;
+  width: calc(100% - 20px);
+  margin: auto;
+}
+
+button.botao_cidade {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: none;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+button.botao_cidade:active {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(122, 122, 122);
+  border: none;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+div.cidade_icon {
+  position: relative;
+  height: 45px;
+  width: 45px;
+  left: 10px;
+}
+
+div.nome_cidade {
+  position: absolute;
+  left: 80px;
+  top: 20px;
+}
+
+div.nome_cidade p {
+  font-size: 22px;
+  color: rgb(63, 63, 63);
+  text-align: center;
+}
+
+div#rio_de_janeiro {
+  position: relative;
+  top: 60px;
+}
+
+div#sao_paulo {
+  position: relative;
+  top: 100px;
+}
